@@ -1,0 +1,124 @@
+[
+  {
+    "id": "office_general_submittals",
+    "source": "OFFICE",
+    "title": "General Office Submittals and Turnover Requirements",
+    "trade": "General",
+    "reference": "Office-approved project delivery and turnover requirements.",
+    "keywords": [
+      "all",
+      "general",
+      "turnover",
+      "as-built",
+      "shop drawing"
+    ],
+    "preferred_phrases": [
+      "as-built plans",
+      "operation and maintenance manual"
+    ],
+    "negative_keywords": [],
+    "clauses": {
+      "scope": "In addition to the technical requirements of the work item, comply with office documentation, submittal, and turnover requirements.",
+      "references": [
+        "Approved project TOR, BOQ, drawings, and implementation instructions"
+      ],
+      "submittals": [
+        "Shop drawings and coordination drawings where required",
+        "Product data, catalogues, and brochures",
+        "Method statement and work schedule when required",
+        "As-built drawings prior to final turnover",
+        "Operation and maintenance manuals for equipment-based systems"
+      ],
+      "materials": [],
+      "execution": [
+        "Coordinate the work with existing site conditions and other trades to minimize rework and conflicts."
+      ],
+      "testing": [
+        "Submit test reports, inspection reports, and commissioning records as applicable."
+      ],
+      "measurement": "",
+      "payment": "",
+      "special_notes": [
+        "Final acceptance may require completion of punch list, submission of as-builts, test reports, warranties, and turnover documents."
+      ]
+    }
+  },
+  {
+    "id": "office_low_current_requirements",
+    "source": "OFFICE",
+    "title": "Low-Current Coordination Requirements",
+    "trade": "Electrical",
+    "reference": "Office-approved coordination notes for low-current systems.",
+    "keywords": [
+      "fdas",
+      "cctv",
+      "network",
+      "data",
+      "voice"
+    ],
+    "preferred_phrases": [
+      "low current system",
+      "structured cabling"
+    ],
+    "negative_keywords": [],
+    "clauses": {
+      "scope": "Where low-current systems are included, coordinate pathways, support requirements, termination points, and testing protocols with the owner and specialist provider.",
+      "references": [
+        "Approved electrical and low-current plans"
+      ],
+      "submittals": [
+        "Single-line layout",
+        "Device layout",
+        "Testing and commissioning protocol"
+      ],
+      "materials": [
+        "Use approved cables, devices, racks, accessories, and labeling materials suitable for the intended low-current application."
+      ],
+      "execution": [
+        "Coordinate conduit and cable tray routing early",
+        "Provide labeling and segregation from power systems where required"
+      ],
+      "testing": [
+        "Functional testing, device addressing, and integration tests where applicable"
+      ],
+      "measurement": "",
+      "payment": "",
+      "special_notes": [
+        "Coordinate internet, voice, CCTV, and FDAS requirements with the end-user and ICT/security focal persons where applicable."
+      ]
+    }
+  },
+  {
+    "id": "office_contractor_qualification",
+    "source": "OFFICE",
+    "title": "Contractor Qualification and Experience Note",
+    "trade": "General",
+    "reference": "Office standard note for specialized or sensitive works.",
+    "keywords": [
+      "floor addition",
+      "specialized work",
+      "rehabilitation",
+      "retrofit"
+    ],
+    "preferred_phrases": [
+      "contractor experience",
+      "similar project experience"
+    ],
+    "negative_keywords": [],
+    "clauses": {
+      "scope": "",
+      "references": [],
+      "submittals": [
+        "Statement of similar completed projects when required by procurement documents"
+      ],
+      "materials": [],
+      "execution": [],
+      "testing": [],
+      "measurement": "",
+      "payment": "",
+      "special_notes": [
+        "For specialized scopes, contractor experience in similar work may be required subject to procurement rules and approved TOR."
+      ]
+    }
+  }
+]

@@ -1,0 +1,244 @@
+[
+  {
+    "id": "ufgs_doors_hardware",
+    "source": "UFGS",
+    "title": "Doors, Frames, and Hardware",
+    "trade": "Architectural Finishes",
+    "reference": "UFGS-inspired door and hardware clause logic to be localized for Philippine projects.",
+    "keywords": [
+      "door",
+      "door jamb",
+      "hinge",
+      "lockset",
+      "door closer",
+      "frame"
+    ],
+    "preferred_phrases": [
+      "metal door",
+      "wood panel door",
+      "door hardware"
+    ],
+    "negative_keywords": [],
+    "clauses": {
+      "scope": "Provide doors, frames, hardware, anchorage, accessories, adjustment, and installation complete in place.",
+      "references": [
+        "Approved door schedule",
+        "Manufacturer recommendations"
+      ],
+      "submittals": [
+        "Door and hardware schedule",
+        "Product data",
+        "Shop drawings when required"
+      ],
+      "materials": [
+        "Door leaf, frames, hinges, locksets, closers, stops, and accessories of approved type and finish"
+      ],
+      "execution": [
+        "Install plumb, level, and square",
+        "Coordinate hardware handing and clearances",
+        "Adjust doors and hardware for proper operation"
+      ],
+      "testing": [
+        "Inspection of alignment, operation, hardware completeness, and finish quality"
+      ],
+      "measurement": "Measure by set, piece, or BOQ pay item.",
+      "payment": "Payment shall include doors, frames, hardware, accessories, installation, adjustment, labor, and incidentals.",
+      "special_notes": [
+        "Review hardware terminology and acceptance criteria to suit local project practice."
+      ]
+    }
+  },
+  {
+    "id": "ufgs_aluminum_glass_windows",
+    "source": "UFGS",
+    "title": "Aluminum-Framed Windows and Glazing",
+    "trade": "Architectural Finishes",
+    "reference": "UFGS-inspired clause logic for aluminum and glazing systems to be localized.",
+    "keywords": [
+      "window",
+      "aluminum",
+      "glass",
+      "glazing",
+      "fixed window",
+      "awning window"
+    ],
+    "preferred_phrases": [
+      "aluminum-framed windows",
+      "tempered glass"
+    ],
+    "negative_keywords": [],
+    "clauses": {
+      "scope": "Provide aluminum window assemblies, glazing, sealants, accessories, and complete installation as shown on the plans.",
+      "references": [
+        "Approved window schedule and details",
+        "Manufacturer recommendations"
+      ],
+      "submittals": [
+        "Shop drawings",
+        "Product data",
+        "Glass type and thickness data"
+      ],
+      "materials": [
+        "Aluminum sections, glass, gaskets, sealants, fasteners, and accessories"
+      ],
+      "execution": [
+        "Verify openings before fabrication",
+        "Install frames square and secure",
+        "Provide proper glazing and sealant installation",
+        "Ensure weather-tightness and smooth operation for operable units"
+      ],
+      "testing": [
+        "Inspection of alignment, sealant continuity, operation, and glazing completeness"
+      ],
+      "measurement": "Measure by square meter, set, or BOQ pay item.",
+      "payment": "Payment shall include materials, fabrication, installation, sealants, hardware, labor, and incidentals.",
+      "special_notes": [
+        "Review glass safety requirements and thickness based on local code and wind exposure where applicable."
+      ]
+    }
+  },
+  {
+    "id": "ufgs_tile_work",
+    "source": "UFGS",
+    "title": "Tile Work",
+    "trade": "Architectural Finishes",
+    "reference": "UFGS-inspired tilework clause logic to be adapted to Philippine materials and practices.",
+    "keywords": [
+      "tile",
+      "floor tile",
+      "wall tile",
+      "ceramic tile",
+      "homogeneous tile"
+    ],
+    "preferred_phrases": [
+      "ceramic floor tiles",
+      "wall tiles"
+    ],
+    "negative_keywords": [],
+    "clauses": {
+      "scope": "Provide floor and wall tile work complete with adhesive, mortar bed where applicable, grout, trims, and accessories.",
+      "references": [
+        "Approved finish schedule",
+        "Manufacturer recommendations"
+      ],
+      "submittals": [
+        "Tile layout and pattern approval when required",
+        "Product data and sample"
+      ],
+      "materials": [
+        "Tiles of approved type, size, and finish",
+        "Tile adhesive, grout, trims, and accessories"
+      ],
+      "execution": [
+        "Prepare substrate properly",
+        "Lay tiles true to line and level",
+        "Maintain consistent joint spacing",
+        "Grout and clean tile surfaces after curing"
+      ],
+      "testing": [
+        "Inspection of alignment, bond, lippage, grout finish, and hollow spots"
+      ],
+      "measurement": "Measure by square meter of accepted tiled area.",
+      "payment": "Payment shall include tiles, adhesive, grout, trims, labor, tools, and incidentals.",
+      "special_notes": [
+        "Review slip resistance, wet-area detailing, and tile class based on the intended room use."
+      ]
+    }
+  },
+  {
+    "id": "ufgs_gypsum_board_ceilings",
+    "source": "UFGS",
+    "title": "Suspended Ceilings and Gypsum Board",
+    "trade": "Architectural Finishes",
+    "reference": "UFGS-inspired ceiling clause logic to be localized for project practice.",
+    "keywords": [
+      "ceiling",
+      "gypsum board",
+      "furring",
+      "acoustic board"
+    ],
+    "preferred_phrases": [
+      "suspended ceiling",
+      "metal furring"
+    ],
+    "negative_keywords": [],
+    "clauses": {
+      "scope": "Provide suspended ceiling system complete with framing, boards, accessories, finishing, and support hangers.",
+      "references": [
+        "Approved reflected ceiling plan",
+        "Manufacturer recommendations"
+      ],
+      "submittals": [
+        "Ceiling layout",
+        "Product data",
+        "Suspension details when required"
+      ],
+      "materials": [
+        "Gypsum board or ceiling board",
+        "Metal furring, suspension hangers, fasteners, trims, and joint treatment materials"
+      ],
+      "execution": [
+        "Set out level lines accurately",
+        "Install framing rigidly and true to plane",
+        "Fasten boards properly and finish joints smoothly",
+        "Coordinate access panels and fixture openings"
+      ],
+      "testing": [
+        "Inspection of line and level, board finish, support spacing, and fixture coordination"
+      ],
+      "measurement": "Measure by square meter or BOQ pay item.",
+      "payment": "Payment shall include boards, framing, hangers, finishing, labor, and incidentals.",
+      "special_notes": [
+        "Review moisture-resistant boards for toilets, wet areas, or humid rooms where needed."
+      ]
+    }
+  },
+  {
+    "id": "ufgs_perimeter_fence",
+    "source": "UFGS",
+    "title": "Fencing and Gates",
+    "trade": "Site Development",
+    "reference": "UFGS-inspired fencing clause logic to be localized.",
+    "keywords": [
+      "fence",
+      "gate",
+      "perimeter fence",
+      "cyclone wire",
+      "chain link"
+    ],
+    "preferred_phrases": [
+      "chain link fence",
+      "steel gate"
+    ],
+    "negative_keywords": [],
+    "clauses": {
+      "scope": "Provide fencing, posts, footings, gates, accessories, protective coatings, and installation complete in place.",
+      "references": [
+        "Approved site development plans",
+        "Gate details and hardware schedule"
+      ],
+      "submittals": [
+        "Shop drawings",
+        "Coating/product data",
+        "Gate hardware data"
+      ],
+      "materials": [
+        "Fence fabric, posts, rails, gates, hardware, concrete for footings, and protective coatings"
+      ],
+      "execution": [
+        "Lay out fence lines accurately",
+        "Install posts plumb and secure",
+        "Stretch and fasten fencing properly",
+        "Install gates with proper operation and locking"
+      ],
+      "testing": [
+        "Inspection of post alignment, tension, gate operation, and coating quality"
+      ],
+      "measurement": "Measure by linear meter, set, or BOQ pay item.",
+      "payment": "Payment shall include posts, fabric, gates, footings, coatings, labor, tools, and incidentals.",
+      "special_notes": [
+        "Review security, anti-climb, and campus access requirements where applicable."
+      ]
+    }
+  }
+]

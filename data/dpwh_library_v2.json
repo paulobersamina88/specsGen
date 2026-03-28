@@ -1,0 +1,578 @@
+[
+  {
+    "id": "dpwh_earthworks_general",
+    "source": "DPWH",
+    "title": "Earthworks and Excavation",
+    "trade": "Earthworks",
+    "reference": "DPWH-style earthwork provisions, approved geotechnical report, drawings, and special provisions.",
+    "keywords": [
+      "excavation",
+      "earthwork",
+      "backfill",
+      "embankment",
+      "grading",
+      "trench"
+    ],
+    "preferred_phrases": [
+      "trench excavation",
+      "selected borrow",
+      "backfilling and compaction"
+    ],
+    "negative_keywords": [],
+    "clauses": {
+      "scope": "Perform excavation, backfilling, grading, hauling, disposal of unsuitable material, moisture conditioning, and compaction required to complete the earthwork shown on the plans.",
+      "references": [
+        "Approved plans and profiles",
+        "Geotechnical report where applicable",
+        "Project special provisions"
+      ],
+      "submittals": [
+        "Excavation and shoring method statement where required",
+        "Laboratory test results for fill materials",
+        "Compaction and field density test plan"
+      ],
+      "materials": [
+        "Approved suitable backfill and selected fill material free of organic matter and deleterious substances",
+        "Water for moisture conditioning"
+      ],
+      "execution": [
+        "Set out excavation limits and protect nearby structures and utilities",
+        "Excavate to the required lines and grades",
+        "Dispose of unsuitable material in approved areas",
+        "Place backfill in controlled layers and compact each lift to required density"
+      ],
+      "testing": [
+        "Field density test",
+        "Moisture content verification",
+        "Laboratory soil classification and compaction tests when required"
+      ],
+      "measurement": "Measure by cubic meter or by pay item shown in the BOQ, based on approved limits and sections.",
+      "payment": "Payment shall include excavation, hauling, disposal, backfilling, compaction, testing, labor, equipment, and all incidentals.",
+      "special_notes": [
+        "Review groundwater control and temporary shoring requirements where deep excavation is involved."
+      ]
+    }
+  },
+  {
+    "id": "dpwh_structural_concrete",
+    "source": "DPWH",
+    "title": "Structural Concrete",
+    "trade": "Concrete Works",
+    "reference": "DPWH-style structural concrete provisions, approved structural plans, mix design, and applicable code references.",
+    "keywords": [
+      "structural concrete",
+      "concrete",
+      "slab",
+      "beam",
+      "column",
+      "footing"
+    ],
+    "preferred_phrases": [
+      "class a concrete",
+      "cast-in-place concrete",
+      "3000 psi concrete"
+    ],
+    "negative_keywords": [
+      "lean concrete"
+    ],
+    "clauses": {
+      "scope": "Furnish, batch, transport, place, consolidate, finish, cure, and protect structural concrete for footings, columns, beams, slabs, walls, and similar members.",
+      "references": [
+        "Approved structural drawings and details",
+        "Approved concrete mix design",
+        "Applicable code provisions for reinforced concrete"
+      ],
+      "submittals": [
+        "Concrete mix design",
+        "Pouring schedule",
+        "Source of cement, aggregates, and admixtures",
+        "Cylinder test schedule"
+      ],
+      "materials": [
+        "Portland cement",
+        "Fine and coarse aggregates suitable for structural concrete",
+        "Clean water",
+        "Approved admixtures when permitted"
+      ],
+      "execution": [
+        "Place concrete only after formwork, reinforcement, embedded items, and clearances are approved",
+        "Avoid segregation during transport and placement",
+        "Compact using mechanical vibrators",
+        "Provide proper finishing and curing",
+        "Protect freshly placed concrete from disturbance and early loading"
+      ],
+      "testing": [
+        "Slump test",
+        "Concrete compressive strength test",
+        "Inspection of clear cover, embedded items, and pour condition"
+      ],
+      "measurement": "Measure by cubic meter or by the BOQ pay item.",
+      "payment": "Payment shall include materials, batching, delivery, placement, vibration, finishing, curing, testing, labor, tools, and incidentals.",
+      "special_notes": [
+        "Include construction joints, waterstops, or non-shrink grout only when shown on plans or special provisions."
+      ]
+    }
+  },
+  {
+    "id": "dpwh_reinforcing_steel",
+    "source": "DPWH",
+    "title": "Reinforcing Steel",
+    "trade": "Reinforcement",
+    "reference": "DPWH-style reinforcing steel provisions and approved structural details.",
+    "keywords": [
+      "reinforcing steel",
+      "rebar",
+      "deformed bar",
+      "tie wire"
+    ],
+    "preferred_phrases": [
+      "fabrication and installation of reinforcing bars",
+      "deformed steel bars"
+    ],
+    "negative_keywords": [],
+    "clauses": {
+      "scope": "Provide cutting, bending, fabrication, placement, tying, securing, and protection of reinforcing steel complete in place.",
+      "references": [
+        "Approved bar bending schedule",
+        "Approved structural drawings",
+        "Applicable code requirements for development length and splicing"
+      ],
+      "submittals": [
+        "Mill certificates",
+        "Bar bending schedule",
+        "Rebar test results when required"
+      ],
+      "materials": [
+        "Deformed bars of specified grade and size",
+        "Tie wire, chairs, spacers, and accessories"
+      ],
+      "execution": [
+        "Cut and bend bars accurately",
+        "Maintain proper spacing, lapping, anchorage, and cover",
+        "Keep bars free from substances that impair bond",
+        "Secure reinforcement against displacement during concreting"
+      ],
+      "testing": [
+        "Review of mill certificates",
+        "Physical verification of bar size and spacing",
+        "Laboratory test when required by project specifications"
+      ],
+      "measurement": "Measure by kilogram, ton, or BOQ pay item.",
+      "payment": "Payment shall include procurement, cutting, bending, placing, tying, supports, labor, and incidentals.",
+      "special_notes": [
+        "Welding of reinforcement shall not be permitted unless specifically allowed and detailed."
+      ]
+    }
+  },
+  {
+    "id": "dpwh_formworks_falseworks",
+    "source": "DPWH",
+    "title": "Formworks and Falseworks",
+    "trade": "Concrete Works",
+    "reference": "DPWH-style provisions for formworks, shoring, and falseworks.",
+    "keywords": [
+      "formwork",
+      "forms",
+      "shoring",
+      "falsework"
+    ],
+    "preferred_phrases": [
+      "formworks and scaffolding"
+    ],
+    "negative_keywords": [],
+    "clauses": {
+      "scope": "Provide, erect, brace, maintain, and remove forms, shoring, and falsework required for the proper casting of concrete.",
+      "references": [
+        "Approved structural and formwork details",
+        "Concrete pouring schedule"
+      ],
+      "submittals": [
+        "Formwork design calculations when required",
+        "Formwork layout and stripping sequence"
+      ],
+      "materials": [
+        "Form panels, studs, walers, braces, ties, and supports suitable for concrete placement"
+      ],
+      "execution": [
+        "Construct forms to the required lines, grades, dimensions, and tolerances",
+        "Provide adequate bracing to maintain alignment",
+        "Apply form release agent properly",
+        "Remove forms only after concrete has gained sufficient strength"
+      ],
+      "testing": [
+        "Inspection of dimensions, alignment, tightness, and support condition before concreting"
+      ],
+      "measurement": "Measure by square meter of form contact area or as indicated in the BOQ.",
+      "payment": "Payment shall include form materials, erection, bracing, removal, cleaning, labor, and incidentals.",
+      "special_notes": [
+        "Sequence of stripping must not impair structural safety or finish quality."
+      ]
+    }
+  },
+  {
+    "id": "dpwh_chb_masonry",
+    "source": "DPWH",
+    "title": "Concrete Hollow Block Masonry",
+    "trade": "Masonry",
+    "reference": "DPWH-style masonry provisions, approved architectural/structural details, and building code requirements.",
+    "keywords": [
+      "chb",
+      "masonry",
+      "blockwork",
+      "concrete hollow block"
+    ],
+    "preferred_phrases": [
+      "concrete hollow block wall"
+    ],
+    "negative_keywords": [],
+    "clauses": {
+      "scope": "Provide concrete hollow block walls complete with mortar, reinforcement, grout, and accessories as shown on the plans.",
+      "references": [
+        "Approved wall layout and details",
+        "Architectural and structural drawings"
+      ],
+      "submittals": [
+        "CHB product data and test report when required",
+        "Wall reinforcement and grouting method"
+      ],
+      "materials": [
+        "Concrete hollow blocks of approved size and strength",
+        "Mortar materials",
+        "Reinforcing bars and grout where indicated"
+      ],
+      "execution": [
+        "Lay blocks true to line, level, and plumb",
+        "Provide reinforcement, dowels, and grouting as shown",
+        "Maintain uniform joints",
+        "Protect fresh masonry from damage and excessive drying"
+      ],
+      "testing": [
+        "Inspection of plumbness, alignment, joints, and grout filling",
+        "CHB strength verification when required"
+      ],
+      "measurement": "Measure by square meter, cubic meter, or BOQ pay item as applicable.",
+      "payment": "Payment shall include blocks, mortar, grout, reinforcement, labor, scaffolding, and incidentals.",
+      "special_notes": [
+        "Coordinate wall openings, sleeves, and embedded items before block laying."
+      ]
+    }
+  },
+  {
+    "id": "dpwh_plastering",
+    "source": "DPWH",
+    "title": "Plastering Works",
+    "trade": "Architectural Finishes",
+    "reference": "DPWH-style plastering provisions and approved architectural finish schedules.",
+    "keywords": [
+      "plaster",
+      "plastering",
+      "render"
+    ],
+    "preferred_phrases": [
+      "cement plaster finish"
+    ],
+    "negative_keywords": [],
+    "clauses": {
+      "scope": "Prepare substrate and apply plaster finish to the surfaces indicated on the plans.",
+      "references": [
+        "Architectural finish schedules",
+        "Approved wall sections and details"
+      ],
+      "submittals": [
+        "Material data for plaster mix and additives when used",
+        "Mock-up when required"
+      ],
+      "materials": [
+        "Cement, sand, water, and approved accessories",
+        "Bonding agent only when allowed"
+      ],
+      "execution": [
+        "Clean and prepare substrate",
+        "Apply plaster to the specified thickness and texture",
+        "Finish surfaces straight, true, and free from hollowness",
+        "Cure plaster adequately"
+      ],
+      "testing": [
+        "Inspection of adhesion, finish quality, thickness, and alignment"
+      ],
+      "measurement": "Measure by square meter of accepted plastered surface.",
+      "payment": "Payment shall include surface preparation, plaster application, curing, labor, and incidentals.",
+      "special_notes": [
+        "Repair cracks, hollowness, and defective work before painting or succeeding finishes."
+      ]
+    }
+  },
+  {
+    "id": "dpwh_painting",
+    "source": "DPWH",
+    "title": "Painting Works",
+    "trade": "Architectural Finishes",
+    "reference": "DPWH-style painting provisions and approved finish schedule.",
+    "keywords": [
+      "painting",
+      "paint",
+      "primer",
+      "topcoat"
+    ],
+    "preferred_phrases": [
+      "latex paint",
+      "epoxy paint"
+    ],
+    "negative_keywords": [],
+    "clauses": {
+      "scope": "Prepare surfaces and apply the specified paint system complete with primer, putty, intermediate coat, and finish coat as required.",
+      "references": [
+        "Approved finish schedule",
+        "Manufacturer recommendations"
+      ],
+      "submittals": [
+        "Paint product data",
+        "Color chart and approval",
+        "Application method statement when required"
+      ],
+      "materials": [
+        "Approved primer, putty, and finish coat compatible with the substrate",
+        "Solvents and accessories recommended by the manufacturer"
+      ],
+      "execution": [
+        "Clean, dry, patch, and sand surfaces before painting",
+        "Apply number of coats necessary to achieve uniform finish",
+        "Observe drying time between coats",
+        "Protect adjacent surfaces from paint splatter"
+      ],
+      "testing": [
+        "Inspection of finish uniformity, adhesion, color consistency, and coverage"
+      ],
+      "measurement": "Measure by square meter or by applicable BOQ pay item.",
+      "payment": "Payment shall include surface preparation, paint application, protection, labor, tools, and incidentals.",
+      "special_notes": [
+        "Do not apply paint on damp or contaminated surfaces."
+      ]
+    }
+  },
+  {
+    "id": "dpwh_roofing",
+    "source": "DPWH",
+    "title": "Roofing and Roof Drainage",
+    "trade": "Roofing",
+    "reference": "DPWH-style roofing provisions, approved roof layout, and manufacturer recommendations.",
+    "keywords": [
+      "roof",
+      "roofing",
+      "longspan",
+      "gutter",
+      "downspout",
+      "flashing"
+    ],
+    "preferred_phrases": [
+      "pre-painted longspan roofing",
+      "roof drainage"
+    ],
+    "negative_keywords": [],
+    "clauses": {
+      "scope": "Provide roofing sheets, flashings, gutters, downspouts, sealants, and accessories required for a complete and watertight roofing system.",
+      "references": [
+        "Approved roof framing and roofing layout",
+        "Manufacturer installation requirements"
+      ],
+      "submittals": [
+        "Shop drawings",
+        "Product data",
+        "Roofing layout and fastening details"
+      ],
+      "materials": [
+        "Roofing sheets of approved thickness and profile",
+        "Fasteners, sealants, flashings, gutters, and downspouts compatible with roofing materials"
+      ],
+      "execution": [
+        "Verify support alignment and roof slope before installation",
+        "Install sheets with proper laps and fastening arrangement",
+        "Provide complete flashing and drainage details",
+        "Ensure watertightness at penetrations and edges"
+      ],
+      "testing": [
+        "Inspection of alignment, gauge, fastening, and watertightness"
+      ],
+      "measurement": "Measure by square meter, linear meter, set, or BOQ pay item.",
+      "payment": "Payment shall include materials, accessories, installation, sealants, labor, and incidentals.",
+      "special_notes": [
+        "Coordinate insulation, ridge rolls, and eave details where specified."
+      ]
+    }
+  },
+  {
+    "id": "dpwh_plumbing_sanitary_piping",
+    "source": "DPWH",
+    "title": "Plumbing and Sanitary Piping",
+    "trade": "Plumbing / Sanitary",
+    "reference": "Philippine plumbing practice, DPWH-style utility installation provisions, approved plumbing plans, and applicable code requirements.",
+    "keywords": [
+      "plumbing",
+      "sanitary",
+      "waterline",
+      "sewer",
+      "storm drain",
+      "ppr",
+      "u-pvc",
+      "cleanout",
+      "fixture"
+    ],
+    "preferred_phrases": [
+      "water supply line",
+      "sanitary line",
+      "storm drainage"
+    ],
+    "negative_keywords": [],
+    "clauses": {
+      "scope": "Provide pipes, fittings, valves, hangers, supports, fixtures, and testing for water supply, sanitary, vent, and drainage systems complete in place.",
+      "references": [
+        "Approved plumbing drawings",
+        "Applicable plumbing code requirements",
+        "Manufacturer recommendations for pipe joining systems"
+      ],
+      "submittals": [
+        "Product data for pipes and fittings",
+        "As-built marked-up routing",
+        "Testing plan for pressure and leak tests"
+      ],
+      "materials": [
+        "Pipes and fittings of specified type, size, and pressure/class rating",
+        "Supports, hangers, cleanouts, traps, valves, and accessories"
+      ],
+      "execution": [
+        "Install piping true to line and grade",
+        "Provide sleeves, supports, and cleanouts where required",
+        "Coordinate wall and slab penetrations",
+        "Test piping before concealment and turnover"
+      ],
+      "testing": [
+        "Hydrostatic or pressure test",
+        "Leak test",
+        "Inspection of slope, supports, and fixture installation"
+      ],
+      "measurement": "Measure by linear meter, set, fixture unit, or BOQ pay item as applicable.",
+      "payment": "Payment shall include pipes, fittings, valves, testing, supports, labor, and incidentals.",
+      "special_notes": [
+        "Coordinate with civil works for underground utilities and manholes."
+      ]
+    }
+  },
+  {
+    "id": "dpwh_electrical_works",
+    "source": "DPWH",
+    "title": "Electrical Works",
+    "trade": "Electrical",
+    "reference": "Philippine Electrical Code, approved electrical plans, and DPWH-style utility installation provisions.",
+    "keywords": [
+      "electrical",
+      "wire",
+      "cable",
+      "conduit",
+      "panel",
+      "lighting",
+      "fdas",
+      "cctv",
+      "data",
+      "network",
+      "grounding"
+    ],
+    "preferred_phrases": [
+      "electrical roughing-in",
+      "lighting and power",
+      "panel board"
+    ],
+    "negative_keywords": [],
+    "clauses": {
+      "scope": "Provide conduits, boxes, wires, cables, devices, fixtures, panels, grounding, supports, and testing for complete electrical and low-current systems as indicated on the plans.",
+      "references": [
+        "Approved electrical plans and single-line diagram",
+        "Applicable provisions of the Philippine Electrical Code",
+        "Manufacturer recommendations"
+      ],
+      "submittals": [
+        "Shop drawings and panel schedules",
+        "Product data and catalogues",
+        "Testing and commissioning plan"
+      ],
+      "materials": [
+        "Wires and cables of specified insulation and size",
+        "Conduits, fittings, boxes, and supports",
+        "Switches, receptacles, lighting fixtures, breakers, panels, and grounding materials"
+      ],
+      "execution": [
+        "Install raceways neatly and in coordination with other trades",
+        "Pull conductors after conduits are complete and clean",
+        "Identify circuits and equipment",
+        "Test systems before energization and turnover"
+      ],
+      "testing": [
+        "Insulation resistance test",
+        "Continuity test",
+        "Grounding verification",
+        "Functional and commissioning tests"
+      ],
+      "measurement": "Measure by linear meter, set, lot, or BOQ pay item as applicable.",
+      "payment": "Payment shall include materials, installation, supports, labels, testing, labor, and incidentals.",
+      "special_notes": [
+        "Low-current systems such as FDAS, CCTV, voice, and data may require additional shop drawings and specialist coordination."
+      ]
+    }
+  },
+  {
+    "id": "dpwh_airconditioning_ventilation",
+    "source": "DPWH",
+    "title": "Air Conditioning and Ventilation",
+    "trade": "Mechanical",
+    "reference": "Approved mechanical plans, manufacturer recommendations, and project mechanical requirements.",
+    "keywords": [
+      "air conditioning",
+      "hvac",
+      "ventilation",
+      "duct",
+      "air handling",
+      "exhaust",
+      "refrigerant"
+    ],
+    "preferred_phrases": [
+      "split type air conditioning",
+      "air handling unit",
+      "mechanical ventilation"
+    ],
+    "negative_keywords": [],
+    "clauses": {
+      "scope": "Provide air-conditioning and ventilation equipment, refrigerant piping, condensate drains, ducting, supports, controls, testing, and commissioning complete in place.",
+      "references": [
+        "Approved mechanical plans",
+        "Manufacturer recommendations",
+        "Applicable mechanical code provisions"
+      ],
+      "submittals": [
+        "Equipment data sheets",
+        "Shop drawings and layout",
+        "Testing, adjusting, and balancing plan",
+        "Commissioning checklist"
+      ],
+      "materials": [
+        "Equipment and accessories of specified capacity and rating",
+        "Ducts, dampers, insulation, supports, refrigerant piping, and controls"
+      ],
+      "execution": [
+        "Install equipment level and secure",
+        "Coordinate sleeves, openings, and supports",
+        "Install piping and ducting without interference",
+        "Provide proper condensate drainage",
+        "Perform start-up and commissioning"
+      ],
+      "testing": [
+        "Pressure test and leak test",
+        "Functional test",
+        "Testing, adjusting, and balancing where applicable"
+      ],
+      "measurement": "Measure by set, linear meter, square meter, lot, or BOQ pay item as applicable.",
+      "payment": "Payment shall include equipment, accessories, installation, testing, commissioning, labor, and incidentals.",
+      "special_notes": [
+        "Coordinate electrical provisions, breaker sizing, and condensate disposal requirements."
+      ]
+    }
+  }
+]

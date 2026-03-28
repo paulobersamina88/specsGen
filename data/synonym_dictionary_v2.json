@@ -1,0 +1,60 @@
+{
+  "reinforcing steel": [
+    "rebar",
+    "rebars",
+    "deformed bar",
+    "steel reinforcement"
+  ],
+  "concrete hollow block": [
+    "chb",
+    "chsb",
+    "blockwork"
+  ],
+  "plumbing": [
+    "waterline",
+    "water line",
+    "sanitary",
+    "drainage"
+  ],
+  "roofing": [
+    "longspan",
+    "roof sheet",
+    "metal deck roof"
+  ],
+  "electrical": [
+    "lighting and power",
+    "fdas",
+    "cctv",
+    "voice",
+    "data",
+    "network"
+  ],
+  "air conditioning": [
+    "hvac",
+    "ac",
+    "ventilation",
+    "split type"
+  ],
+  "tile": [
+    "floor tile",
+    "wall tile",
+    "homogeneous tile",
+    "ceramic tile"
+  ],
+  "window": [
+    "glazing",
+    "glass window",
+    "aluminum window"
+  ],
+  "door": [
+    "door leaf",
+    "door frame",
+    "hardware set"
+  ],
+  "earthworks": [
+    "excavation",
+    "backfill",
+    "embankment",
+    "grading"
+  ]
+}
