@@ -1,49 +1,35 @@
-from dataclasses import dataclass
 from typing import Dict
 import pandas as pd
+from utils.text_utils import normalize_text
 
 COLUMN_ALIASES = {
-    "item_no": ["item no", "item number", "pay item", "item", "payitem", "item_no"],
+    "item_no": ["item no", "item number", "pay item", "item", "payitem", "no."],
     "description": ["description", "item description", "scope", "work description", "particulars"],
     "unit": ["unit", "uom"],
     "quantity": ["qty", "quantity", "qnty"],
-    "remarks": ["remarks", "notes", "comment"],
+    "remarks": ["remarks", "comment", "notes"],
+    "division": ["division", "trade", "discipline", "category"],
 }
 
-
-@dataclass
-class ParsedBOQ:
-    df: pd.DataFrame
-    column_map: Dict[str, str]
-
-
-def _normalize_col(text: str) -> str:
-    return " ".join(str(text).strip().lower().split())
-
+def find_column(df: pd.DataFrame, aliases):
+    cols = {normalize_text(c): c for c in df.columns}
+    for alias in aliases:
+        if alias in cols:
+            return cols[alias]
+    for key, original in cols.items():
+        if any(alias in key for alias in aliases):
+            return original
+    return ""
 
 def auto_map_columns(df: pd.DataFrame) -> Dict[str, str]:
-    normalized = {_normalize_col(c): c for c in df.columns}
-    result = {}
-    for key, aliases in COLUMN_ALIASES.items():
-        chosen = ""
-        for alias in aliases:
-            if alias in normalized:
-                chosen = normalized[alias]
-                break
-        if not chosen:
-            for ncol, orig in normalized.items():
-                if any(alias in ncol for alias in aliases):
-                    chosen = orig
-                    break
-        result[key] = chosen
-    return result
+    return {key: find_column(df, aliases) for key, aliases in COLUMN_ALIASES.items()}
 
-
-def standardize_boq(df: pd.DataFrame, column_map: Dict[str, str]) -> pd.DataFrame:
-    out = pd.DataFrame()
-    for key in ["item_no", "description", "unit", "quantity", "remarks"]:
-        col = column_map.get(key, "")
-        out[key] = df[col] if col and col in df.columns else ""
-    out = out.fillna("")
-    out = out[out["description"].astype(str).str.strip() != ""].copy()
-    return out.reset_index(drop=True)
+def standardize_boq(df: pd.DataFrame, mapping: Dict[str, str]) -> pd.DataFrame:
+    result = pd.DataFrame()
+    for key in COLUMN_ALIASES:
+        src = mapping.get(key, "")
+        result[key] = df[src] if src else ""
+    result = result.fillna("")
+    result = result[result["description"].astype(str).str.strip() != ""].copy()
+    result["row_id"] = range(1, len(result) + 1)
+    return result[["row_id", "item_no", "description", "unit", "quantity", "remarks", "division"]]
