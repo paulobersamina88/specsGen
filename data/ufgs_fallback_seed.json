@@ -1,0 +1,100 @@
+[
+  {
+    "id": "ufgs_roofing",
+    "title": "Roofing and Roof Drainage",
+    "trade": "Roofing",
+    "reference": "UFGS-derived logic adapted for draft specification use, subject to Philippine review.",
+    "keywords": ["roofing", "roof", "longspan", "gutter", "downspout", "metal deck"],
+    "clauses": {
+      "scope": "This work covers roofing panels, flashings, gutters, downspouts, sealants, fasteners, and accessories required for a complete roof system.",
+      "materials": [
+        "Use roofing panels and accessories of approved profile, thickness, and finish.",
+        "Provide compatible sealants, fasteners, and closures recommended for the roofing system."
+      ],
+      "execution": [
+        "Verify supports, line, level, and roof slope before installation.",
+        "Install roofing in accordance with approved layout and manufacturer recommendations.",
+        "Complete all laps, sealant application, flashings, and penetrations to achieve a watertight assembly."
+      ],
+      "testing": [
+        "Inspect alignment, fastener installation, laps, and visible watertightness-related details."
+      ],
+      "measurement": "Measurement shall be by accepted area, length, or corresponding BOQ pay item.",
+      "payment": "Payment shall include roofing materials, drainage accessories, fasteners, sealants, labor, and incidentals."
+    }
+  },
+  {
+    "id": "ufgs_plumbing",
+    "title": "Plumbing and Sanitary Piping",
+    "trade": "Plumbing/Sanitary",
+    "reference": "UFGS-derived logic adapted for draft specification use, subject to Philippine review and National Plumbing Code compliance.",
+    "keywords": ["plumbing", "sanitary", "water line", "waterline", "ppr", "u-pvc", "sewer", "storm drain"],
+    "clauses": {
+      "scope": "This work covers supply and installation of water supply, sanitary, vent, and drain piping systems complete with fittings, supports, and testing.",
+      "materials": [
+        "Use pipe materials, fittings, and joining compounds suitable for the system service and pressure class.",
+        "Provide valves, cleanouts, supports, sleeves, and accessories as indicated."
+      ],
+      "execution": [
+        "Install piping true to line and grade and provide proper supports.",
+        "Coordinate sleeves, penetrations, and concealed routing with structural and architectural work.",
+        "Test piping systems before concealment and turnover."
+      ],
+      "testing": [
+        "Perform hydrostatic, pressure, or leak tests as applicable to the piping system.",
+        "Inspect pipe slopes, supports, fittings, and visible workmanship."
+      ],
+      "measurement": "Measurement shall be by accepted length, set, or corresponding BOQ pay item.",
+      "payment": "Payment shall include pipes, fittings, valves, supports, testing, labor, tools, and incidentals."
+    }
+  },
+  {
+    "id": "ufgs_electrical",
+    "title": "Electrical Works",
+    "trade": "Electrical",
+    "reference": "UFGS-derived logic adapted for draft specification use, subject to Philippine review and PEC compliance.",
+    "keywords": ["electrical", "wire", "cable", "conduit", "panel", "lighting", "fdas", "cctv", "data", "network"],
+    "clauses": {
+      "scope": "This work covers raceways, conductors, boxes, devices, fixtures, panels, supports, identification, and testing for complete electrical systems.",
+      "materials": [
+        "Use wires, cables, raceways, fittings, boxes, and equipment of the specified rating and approved type.",
+        "Provide identification labels and supports required for a complete installation."
+      ],
+      "execution": [
+        "Install raceways neatly and coordinate routing with other trades.",
+        "Pull conductors after raceways are complete, clean, and protected.",
+        "Complete circuiting, labeling, and equipment termination in an orderly manner."
+      ],
+      "testing": [
+        "Perform continuity, insulation resistance, and functional testing before energization.",
+        "Verify grounding, labeling, and visible compliance with approved plans."
+      ],
+      "measurement": "Measurement shall be by accepted length, set, lot, or corresponding BOQ pay item.",
+      "payment": "Payment shall include materials, installation, supports, testing, labor, tools, and incidentals."
+    }
+  },
+  {
+    "id": "ufgs_ceiling_partition",
+    "title": "Ceiling and Partition Systems",
+    "trade": "Finishes",
+    "reference": "UFGS-derived logic adapted for draft specification use, subject to Philippine review.",
+    "keywords": ["ceiling", "partition", "gypsum", "drywall", "furring"],
+    "clauses": {
+      "scope": "This work covers suspended ceiling systems, gypsum board assemblies, partitions, framing, accessories, and finishing required by the contract documents.",
+      "materials": [
+        "Use framing members, boards, fasteners, joint compounds, and accessories suitable for the indicated assembly.",
+        "Provide corrosion-protected members where required by the environment or project conditions."
+      ],
+      "execution": [
+        "Lay out framing accurately and coordinate with MEP penetrations and supports.",
+        "Install boards and accessories to achieve alignment, flatness, and a properly finished surface.",
+        "Complete joints, corners, and finishing in accordance with the approved finish level."
+      ],
+      "testing": [
+        "Inspect framing alignment, board installation, fastener treatment, and visible finish quality."
+      ],
+      "measurement": "Measurement shall be by accepted area, length, or corresponding BOQ pay item.",
+      "payment": "Payment shall include framing, boards, accessories, finishing materials, labor, tools, and incidentals."
+    }
+  }
+]

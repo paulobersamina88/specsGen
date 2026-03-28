@@ -1,0 +1,46 @@
+[
+  {
+    "id": "office_submittals_general",
+    "title": "General Submittals and Closeout",
+    "trade": "General",
+    "reference": "IMDO internal review requirements and owner turnover expectations.",
+    "keywords": ["submittal", "shop drawing", "as built", "closeout", "turnover", "manual"],
+    "clauses": {
+      "scope": "This provision covers contractor submittals, shop drawings, product data, warranties, testing records, as-built plans, and turnover documents required for project acceptance.",
+      "materials": [
+        "Submit complete technical data, brochures, samples, certificates, and other supporting documents as required by the contract documents."
+      ],
+      "execution": [
+        "Do not proceed with affected work until required submittals have been reviewed as required by the contract.",
+        "Submit as-built drawings and closeout documents prior to final acceptance."
+      ],
+      "testing": [
+        "Compile all test reports, inspection logs, and commissioning records required for turnover."
+      ],
+      "measurement": "Unless separately indicated in the BOQ, submittals and closeout requirements shall be considered incidental to the relevant pay items.",
+      "payment": "No separate payment shall be made unless specifically provided in the BOQ."
+    }
+  },
+  {
+    "id": "office_low_current",
+    "title": "Low Current Systems General Requirements",
+    "trade": "Electrical",
+    "reference": "IMDO low-current drafting notes for FDAS, CCTV, voice, and data systems.",
+    "keywords": ["fdas", "cctv", "voice", "data", "network"],
+    "clauses": {
+      "scope": "This provision covers low-current systems such as FDAS, CCTV, voice, and data cabling including conduits, boxes, devices, labels, and testing.",
+      "materials": [
+        "Use compatible cables, conduits, supports, terminations, and devices suitable for the intended system."
+      ],
+      "execution": [
+        "Coordinate low-current routing with electrical, architectural, and structural requirements.",
+        "Provide labeling and identification for panels, devices, and cable terminations."
+      ],
+      "testing": [
+        "Perform continuity, device checks, and functional testing before turnover."
+      ],
+      "measurement": "Measurement shall be by corresponding BOQ pay item.",
+      "payment": "Payment shall include all accessories, testing, and incidentals for complete functioning systems."
+    }
+  }
+]

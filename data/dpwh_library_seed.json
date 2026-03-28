@@ -1,0 +1,126 @@
+[
+  {
+    "id": "dpwh_earthworks",
+    "title": "Earthworks",
+    "trade": "Earthworks",
+    "reference": "DPWH Blue Book logic, project plans, geotechnical report, and approved special provisions.",
+    "keywords": ["excavation", "earthwork", "backfill", "embankment", "grading"],
+    "clauses": {
+      "scope": "This work covers excavation, backfilling, grading, disposal of unsuitable materials, compaction, and all incidental earthworks required by the contract documents.",
+      "materials": [
+        "Use approved fill and backfill materials free from organic matter and other deleterious substances.",
+        "Moisture conditioning water shall be clean and adequate for compaction control."
+      ],
+      "execution": [
+        "Establish grades, limits, and elevations before commencing work.",
+        "Excavate only within approved limits and protect adjacent utilities and structures.",
+        "Place fill in layers and compact each layer to the required density."
+      ],
+      "testing": [
+        "Perform field density tests as required.",
+        "Verify soil classification and compaction characteristics when required by the project."
+      ],
+      "measurement": "Measurement shall be based on accepted quantity by volume or by the relevant BOQ pay item.",
+      "payment": "Payment shall include excavation, hauling, disposal, filling, compaction, testing, labor, equipment, and incidental work."
+    }
+  },
+  {
+    "id": "dpwh_structural_concrete",
+    "title": "Structural Concrete",
+    "trade": "Structural",
+    "reference": "DPWH structural concrete logic, approved structural drawings, mix design, and applicable Philippine codes.",
+    "keywords": ["concrete", "structural concrete", "beam", "column", "slab", "footing", "3000 psi", "4000 psi"],
+    "clauses": {
+      "scope": "This work covers furnishing, mixing, placing, finishing, curing, and protecting structural concrete for all reinforced or plain concrete members indicated on the plans.",
+      "materials": [
+        "Use cement, aggregates, and water suitable for the specified concrete strength.",
+        "Admixtures, if used, shall be subject to approval and compatibility with the mix design."
+      ],
+      "execution": [
+        "Do not place concrete until formwork, reinforcement, and embedded items have been inspected and accepted.",
+        "Place and consolidate concrete properly to avoid segregation and honeycombing.",
+        "Provide curing and protection immediately after finishing."
+      ],
+      "testing": [
+        "Perform slump tests during concrete delivery or placement as required.",
+        "Take compressive strength samples and test concrete cylinders in accordance with the project requirements."
+      ],
+      "measurement": "Measurement shall be by accepted cubic meter or by the corresponding BOQ pay item.",
+      "payment": "Payment shall include batching, transport, placement, consolidation, finishing, curing, testing, labor, equipment, and incidentals."
+    }
+  },
+  {
+    "id": "dpwh_reinforcing_steel",
+    "title": "Reinforcing Steel",
+    "trade": "Structural",
+    "reference": "DPWH reinforcing steel logic, approved bar bending schedules, and structural drawings.",
+    "keywords": ["rebar", "reinforcing steel", "deformed bar", "steel reinforcement"],
+    "clauses": {
+      "scope": "This work covers furnishing, cutting, bending, placing, tying, and securing reinforcing steel for concrete construction.",
+      "materials": [
+        "Use reinforcing bars of the size, grade, and type indicated on the plans.",
+        "Provide tie wire, spacers, chairs, and supports necessary for correct placement."
+      ],
+      "execution": [
+        "Prepare bars in accordance with approved bar bending schedules.",
+        "Maintain spacing, laps, hooks, cover, and anchorage required by the drawings and applicable code provisions.",
+        "Keep reinforcement clean enough to ensure proper bond with concrete."
+      ],
+      "testing": [
+        "Provide mill certificates and laboratory verification where required.",
+        "Inspect spacing, cover, laps, and bar arrangement prior to concreting."
+      ],
+      "measurement": "Measurement shall be by accepted kilogram, ton, or by the corresponding BOQ pay item.",
+      "payment": "Payment shall include cutting, bending, placing, tying, supports, labor, tools, and incidental work."
+    }
+  },
+  {
+    "id": "dpwh_chb_masonry",
+    "title": "Concrete Hollow Block Masonry",
+    "trade": "Masonry",
+    "reference": "DPWH and project masonry logic, approved drawings, and relevant Philippine standards.",
+    "keywords": ["chb", "masonry", "blockwork", "concrete hollow block"],
+    "clauses": {
+      "scope": "This work covers furnishing and laying masonry units, mortar, reinforcement, grout, and accessories necessary for complete masonry construction.",
+      "materials": [
+        "Use masonry units of approved type, size, and quality.",
+        "Mortar and grout materials shall be suitable for the specified wall assembly."
+      ],
+      "execution": [
+        "Lay masonry true to line, level, and plumb with uniform joints.",
+        "Install reinforcement, dowels, and grout where indicated.",
+        "Protect masonry from damage and excessive drying during construction."
+      ],
+      "testing": [
+        "Inspect alignment, jointing, reinforcement placement, and grout filling.",
+        "Verify masonry unit strength where required by the project."
+      ],
+      "measurement": "Measurement shall be by accepted square meter, cubic meter, or corresponding BOQ pay item.",
+      "payment": "Payment shall include blocks, mortar, grout, reinforcement, labor, tools, scaffolding, and incidentals."
+    }
+  },
+  {
+    "id": "dpwh_painting",
+    "title": "Painting Works",
+    "trade": "Finishes",
+    "reference": "Project finish schedules, approved product data, and DPWH-style finish requirements.",
+    "keywords": ["paint", "painting", "primer", "topcoat"],
+    "clauses": {
+      "scope": "This work covers surface preparation and application of primer, intermediate, and finish coats as required for the indicated substrate and finish system.",
+      "materials": [
+        "Use approved paint materials compatible with the substrate and specified finish.",
+        "Store paint products in original unopened containers until use."
+      ],
+      "execution": [
+        "Prepare surfaces thoroughly before painting.",
+        "Apply the required number of coats with proper drying time between coats.",
+        "Protect adjacent surfaces from splatter and staining."
+      ],
+      "testing": [
+        "Inspect color consistency, coverage, and finish uniformity."
+      ],
+      "measurement": "Measurement shall be by accepted area or by corresponding BOQ pay item.",
+      "payment": "Payment shall include surface preparation, priming, painting, labor, tools, and incidentals."
+    }
+  }
+]

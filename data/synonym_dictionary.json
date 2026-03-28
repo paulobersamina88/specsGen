@@ -1,0 +1,9 @@
+{
+  "reinforcing steel": ["rebar", "deformed bar", "rebars", "steel reinforcement"],
+  "concrete hollow block": ["chb", "blockwork", "masonry block"],
+  "roofing": ["longspan", "roof sheet", "metal deck roofing"],
+  "plumbing": ["waterline", "water line", "sanitary", "sewer", "storm drain"],
+  "electrical": ["fdas", "cctv", "network", "data", "lighting", "panel board"],
+  "painting": ["primer", "topcoat", "paint system"],
+  "earthworks": ["excavation", "backfill", "grading", "embankment"]
+}
