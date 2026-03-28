@@ -1,5 +1,12 @@
-from pathlib import Path
+SOURCE_PRIORITY_DEFAULT = ["DPWH", "OFFICE", "UFGS", "GENERIC"]
 
-BASE_DIR = Path(__file__).resolve().parents[1]
-DATA_DIR = BASE_DIR / "data"
-TEMPLATES_DIR = BASE_DIR / "templates"
+REQUIRED_CLAUSE_KEYS = [
+    "scope",
+    "references",
+    "submittals",
+    "materials",
+    "execution",
+    "testing",
+    "measurement",
+    "payment",
+]
