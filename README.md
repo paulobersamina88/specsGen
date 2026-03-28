@@ -1,16 +1,17 @@
-# TechSpec PRO
+# TechSpec PRO Version 2
 
-A Streamlit starter app that converts uploaded BOQ items into draft technical specifications for Philippine projects using a DPWH-first and UFGS-fallback architecture.
+A more comprehensive Streamlit package for converting uploaded BOQ items into draft technical specifications for Philippine projects using a **DPWH-first**, **office-special-provisions-second**, and **UFGS-fallback** architecture.
 
-## Features
-- Upload CSV/XLSX BOQ files
-- Map BOQ columns
-- Classify BOQ items by trade
-- Match against DPWH seed library first
-- Fall back to UFGS seed library when needed
-- Generate editable draft technical specifications
-- Flag low-confidence items for manual review
-- Export spec register CSV and compiled DOCX
+## What's new in Version 2
+- Multipage Streamlit workflow
+- More structured standards library
+- Better trade classification and synonym handling
+- User-controlled source priority
+- Manual override of matched section per BOQ item
+- Project special provisions appender
+- Spec register with confidence, review flags, and source traceability
+- CSV, XLSX, TXT, and DOCX export
+- Seed libraries expanded across civil, structural, architectural, plumbing, mechanical, and electrical scopes
 
 ## Run locally
 ```bash
@@ -18,12 +19,18 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## Recommended next steps
-1. Expand `data/dpwh_library_seed.json`
-2. Expand `data/ufgs_fallback_seed.json`
-3. Add your office special provisions in `data/office_special_provisions_seed.json`
-4. Tune the synonym dictionary
-5. Add actual PDF ingestion later for your curated standards
+## Recommended use
+1. Start with `data/sample_boq_v2.xlsx` or upload your own BOQ.
+2. Review the section library in the Standards Library page.
+3. Generate draft technical specs.
+4. Check fallback items carefully, especially UFGS-based matches.
+5. Revise clauses before issuing final project specifications.
 
 ## Important
-This package generates draft technical specifications only. Final output must still be reviewed against the latest approved DPWH references, project drawings, special provisions, and applicable Philippine codes.
+This package creates **draft** technical specifications only.
+Final specifications must still be checked against:
+- latest approved DPWH references and issuances
+- project plans and details
+- special provisions
+- NSCP / PEC / Plumbing Code / Fire Code / NBCP as applicable
+- agency-approved procurement and contract documents
